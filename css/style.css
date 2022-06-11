@@ -170,8 +170,8 @@ a.button {
     }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 900px){
     .shadow {
-        margin-left: -20%;
+        margin-left: -10%;
     }
 }
