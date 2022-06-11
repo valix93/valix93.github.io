@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 *{
@@ -192,16 +191,13 @@ a.button {
     .about-left-content{
         position: absolute;
         width:50%
-    
+
     }
 }
-.credit{
-    text-align: center;
-    color: #fff;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.credit a{
-    text-decoration: none;
-    color:#00acdf;
-    font-weight: bold;
+
+@media all and (max-width:480px) {
+
+    .about-img {
+        margin-left:-1rem;
+    }
 }
