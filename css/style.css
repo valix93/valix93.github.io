@@ -11,7 +11,7 @@ body{
 .about-wrapper{
     height: 100vh;
 }
-.about-left{
+.about-center{
     background-color: #55CDFC;
     background-image: linear-gradient(19deg, #55CDFC 0%, #F7A8B8 100%);
     display: flex;
@@ -21,14 +21,14 @@ body{
     height: 100vh;
     color:#fff
 }
-.about-left-content > div{
+.about-center-content > div{
     background: #12192c;
     padding: 4rem 4rem 2.5rem 5rem;
     text-align: center;
     
     border-radius: 12px 12px 0 0;
 }
-.about-left-content{
+.about-center-content{
     box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
     -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
     -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
@@ -70,14 +70,14 @@ a.button {
 }
 
 
-.about-left-content h2{
+.about-center-content h2{
     font-size: 2rem;
     margin: 2.2rem 0 0.6rem 0;
     line-height: 1.2;
     padding-bottom: 1rem;
     border-bottom: 2px solid #00acdf;
 }
-.about-left-content h3{
+.about-center-content h3{
     text-transform: uppercase;
     font-weight: 300;
     letter-spacing: 5px;
@@ -185,10 +185,10 @@ a.button {
 
 @media screen and (min-width: 992px){
 
-    .about-left{
+    .about-center{
         position: relative;
     }
-    .about-left-content{
+    .about-center-content{
         position: absolute;
         width:50%
 
