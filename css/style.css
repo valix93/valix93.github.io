@@ -1,167 +1,159 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+}
+ body{
+     font-family: 'Poppins', sans-serif;
+}
+ .pride-background {
+     background-color: #55CDFC;
+     background-image: linear-gradient(19deg, #55CDFC 0%, #F7A8B8 100%);
+     background-size: 100%;
+     background-repeat: no-repeat;
+     padding: 4rem 2.5rem 4rem 2.5rem;
+     margin: 0;
+     height: 100vh;
+     overflow: hidden;
+}
+ .center {
+     text-align: center;
+     align-content: center;
+     justify-content: center;
+     display: flex;
+}
+ .about-border {
+     background: #12192c;
+     padding: 4rem 4rem 5rem 5rem;
+     border-radius: 12px 12px 12px 12px;
+}
+ .about-title h1{
+     font-size: 2.5rem;
+     text-transform: uppercase;
+     color: #FFFFFF;
+}
+ .about-title h1 span{
+     color: #00acdf;
+}
+ h2.about-me {
+     font-size: 2rem;
+     margin: 2.2rem 0 0.6rem 0;
+     line-height: 1.2;
+     padding-bottom: 1rem;
+     border-bottom: 2px solid #00acdf;
+}
+ h3.about-myjob {
+     text-transform: uppercase;
+     font-weight: 300;
+     letter-spacing: 5px;
+     margin-top: 1.2rem;
+     display: block;
+     position: relative;
+     top: 0.5rem;
+}
+ .about-center{
+     color:#fff;
+     justify-content: center;
+     margin-top: 1.2rem;
+}
+ .about-para p{
+     font-weight: 300;
+     padding: 0.5rem;
+     opacity: 0.8;
+}
+ .about-img {
+     border: 3px dotted;
+     border-color: #fff #00acdf #fff #00acdf;
+     transform: rotate(45deg);
+     border-radius: 50%;
+     margin: 2rem 0 2rem 0;
+}
+ .about-img img {
+     width: 200px;
+     height: 200px;
+     transform: rotate(-45deg);
+}
+ a.button {
+     -webkit-appearance: button;
+     -moz-appearance: button;
+     appearance: button;
+     text-decoration: none;
+     color: white;
+}
+ .btn{
+     border: none;
+     font-size: 0.9rem;
+     text-transform: uppercase;
+     border: 2px solid #fff;
+     border-radius: 20px;
+     padding: 0.55rem 0;
+     width: 130px;
+     font-weight: 600;
+     background: transparent;
+     margin: 0 0.5rem;
+     cursor: pointer;
+     color:#fff 
+}
+ .btn.btn-azure{
+     background: #00acdf;
+     color: #fff;
+     border-color: #00acdf;
+     transition: all 0.5s ease-in-out;
+}
+ .btn.btn-azure:hover{
+     background: transparent;
+     border-color: #fff;
+     color: #fff;
+}
+ .btn.btn-white{
+     transition: all 0.5s ease-in-out;
+}
+ .btn.btn-white:hover{
+     background: #00acdf;
+     border-color: #00acdf;
+     color: #fff;
+}
+ .icons{
+     display: flex;
+     justify-content: center;
+     border-radius: 0 0 20px 20px;
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+}
+ .icons li{
+     list-style-type: none;
+     background: #00acdf;
+     color: #fff;
+     width: 40px;
+     height: 40px;
+     margin: 0 0.5rem;
+     border-radius: 20px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 1.2rem;
+     cursor: pointer;
+}
+ .icons li:hover{
+     background: transparent;
+     color: #fff;
+     border: 2px solid #fff;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-}
-.pride-background {
-    background-color: #55CDFC;
-    background-image: linear-gradient(19deg, #55CDFC 0%, #F7A8B8 100%);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 4rem 2.5rem 4rem 2.5rem;
-    margin: 0;
-    height: 100vh;
-    overflow: hidden;
-}
-
-.center {
-	text-align: center;
-	align-content: center;
-	justify-content: center;
-	display: flex;
-}
-
-.about-border {
-	background: #12192c;
-    padding: 4rem 4rem 5rem 5rem;
-    border-radius: 12px 12px 12px 12px;
-
-}
-
-.about-title h1{
-    font-size: 2.5rem;
-    text-transform: uppercase;
-    color: #FFFFFF;
-}
-.about-title h1 span{
-    color: #00acdf;
-}
-
-h2.about-me {
-    font-size: 2rem;
-    margin: 2.2rem 0 0.6rem 0;
-    line-height: 1.2;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #00acdf;
-}
-h3.about-myjob {
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 5px;
-    margin-top: 1.2rem;
-    display: block;
-  	position: relative;
-  	top: 0.5rem;
-}
-
-.about-center{
-    color:#fff;
-    justify-content: center;
-    margin-top: 1.2rem;
-}
-
-.about-para p{
-    font-weight: 300;
-    padding: 0.5rem;
-    opacity: 0.8;
-}
-
-.about-img {
-	border: 3px dotted;
-    border-color: #fff #00acdf #fff #00acdf;
-    transform: rotate(45deg);
-    border-radius: 50%;
-    margin: 2rem 0 2rem 0;
-}
-
-.about-img img {
-	width: 200px;
-	height: 200px;
-	transform: rotate(-45deg);
-}
-
-a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
-
-    text-decoration: none;
-    color: white;
-}
-
-.btn{
-    border: none;
-    font-size: 0.9rem;
-    text-transform: uppercase;
-    border: 2px solid #fff;
-    border-radius: 20px;
-    padding: 0.55rem 0;
-    width: 130px;
-    font-weight: 600;
-    background: transparent;
-    margin: 0 0.5rem;
-    cursor: pointer;
-    color:#fff
-}
-
-.btn.btn-azure{
-    background: #00acdf;
-    color: #fff;
-    border-color: #00acdf;
-    transition: all 0.5s ease-in-out;
-}
-
-.btn.btn-azure:hover{
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-}
-
-.btn.btn-white{
-    transition: all 0.5s ease-in-out;
-}
-
-.btn.btn-white:hover{
-    background: #00acdf;
-    border-color: #00acdf;
-    color: #fff;
-}
-
-.icons{
-    display: flex;
-    justify-content: center;
-    border-radius: 0 0 20px 20px;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-.icons li{
-    list-style-type: none;
-    background: #00acdf;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    margin: 0 0.5rem;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
-    cursor: pointer;
-}
-.icons li:hover{
-    background: transparent;
-    color: #fff;
-    border: 2px solid #fff;
-}
-
-@media only screen and (max-width: 413px){
-	* {
-		box-sizing: content-box;
-	}
+ @media only screen and (max-width: 413px){
+     * {
+         box-sizing: content-box;
+    }
+     .pride-background {
+         background-color: #12192c;
+         background-image: linear-gradient(19deg, #12192c , #12192c);
+         background-size: 100%;
+         background-repeat: no-repeat;
+         padding: 4rem 2.5rem 4rem 2.5rem;
+         margin: 0;
+         height: 100vh;
+         overflow: hidden;
+    }
 }
