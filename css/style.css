@@ -3,7 +3,6 @@
 * {
 	padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -29,8 +28,9 @@ body{
 
 .about-border {
 	background: #12192c;
-    padding: 4rem 4rem 2.5rem 5rem;
+    padding: 4rem 4rem 5rem 5rem;
     border-radius: 12px 12px 12px 12px;
+
 }
 
 .about-title h1{
@@ -132,13 +132,11 @@ a.button {
 }
 
 .icons{
-    background: #12192c;
     display: flex;
     justify-content: center;
-    padding: 0.8rem 0 3rem 0;
     border-radius: 0 0 20px 20px;
-    top: 0.5rem;
     margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
 }
 .icons li{
     list-style-type: none;
