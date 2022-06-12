@@ -3,6 +3,7 @@
 * {
 	padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -156,4 +157,10 @@ a.button {
     background: transparent;
     color: #fff;
     border: 2px solid #fff;
+}
+
+@media screen and (max-width: 413px){
+	* {
+		box-sizing: content-box	;
+	}
 }
