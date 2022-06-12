@@ -159,8 +159,8 @@ a.button {
     border: 2px solid #fff;
 }
 
-@media screen and (max-width: 413px){
+@media only screen and (max-width: 413px){
 	* {
-		box-sizing: content-box	;
+		box-sizing: content-box;
 	}
 }
